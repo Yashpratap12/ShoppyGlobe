@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 90vh;
+  background-image: url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?t=st=1736958366~exp=1736961966~hmac=8fef091f3c0eb0f65d8693d8d37ceb19d086c6034b843d1e63d1670989906856&w=1380");
+  background-size: 100vw 100vh;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 100vw;
+  background-color: rgba(5, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2vw;
+  position: fixed;
+  top: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+  &:hover {
+    color: orangered;
+  }
+}
+.cart-images {
+  position: absolute;
+  top: 1vh;
+}
+.cart-text {
+  color: white;
+  font-weight: 900;
+  position: relative;
+  bottom: 0.8vh;
+  left: 2.6vw;
+  z-index: 10;
+}

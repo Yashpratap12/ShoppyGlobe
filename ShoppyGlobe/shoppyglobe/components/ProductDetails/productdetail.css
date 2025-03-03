@@ -1,0 +1,114 @@
+.product-detail-card {
+  display: flex;
+  background-color: white;
+  margin-top: 10vh;
+}
+.image-detail-container img {
+  width: 25vw;
+  height: 70vh;
+  background-color: white;
+}
+.buy-now-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.buy-now-buttons button {
+  margin: 20px;
+  padding: 0.5rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  background-color: #fb641b;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.buy-now-buttons button:nth-of-type(1) {
+  background-color: #ff9f00;
+}
+.product-details {
+  padding: 1rem;
+}
+.product-details h3 {
+  color: grey;
+}
+.product-details h1 {
+  font-size: 3rem;
+}
+.product-details p {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 3vh;
+}
+.price-container {
+  display: flex;
+  gap: 1vw;
+}
+.price-container p {
+  color: black;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.price-container p:nth-of-type(2) {
+  color: green;
+  font-size: 1.4rem;
+  margin-top: 4.5vh;
+}
+.products-info {
+  margin-top: 2vh;
+}
+.products-info p {
+  color: black;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.warranty-images {
+  display: flex;
+  gap: 5vw;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.warranty-images img {
+  width: 5vw;
+}
+.warranty-details {
+  display: flex;
+  gap: 4vw;
+  margin-left: 1.5vw;
+}
+.warranty-details p {
+  color: black;
+  font-weight: 100;
+  width: 6vw;
+  text-align: center;
+}
+.product-details h6 {
+  font-size: 1.7rem;
+  margin-top: 1vh;
+  color: grey;
+}
+.customer-review-container {
+  display: flex;
+  gap: 2vw;
+}
+.customer-review-card {
+  border: 3px solid grey;
+  padding: 0.5rem;
+  width: 20vw;
+  height: 35vh;
+  margin-top: 2vh;
+}
+.customer-review-card p {
+  color: black;
+  font-weight: 100;
+}
+.additional-informations li {
+  margin-left: 1vw;
+  line-height: 3.5vh;
+  font-size: 1.1rem;
+}

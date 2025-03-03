@@ -1,0 +1,25 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(73, 47, 47);
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+.footer-content img {
+  width: 1.6rem;
+  margin-top: 10px;
+  border: 5px solid white;
+  border-radius: 10rem;
+  background-color: white;
+  margin-top: 1vh;
+  &:hover {
+    cursor: pointer;
+    border: 5px solid tomato;
+  }
+}

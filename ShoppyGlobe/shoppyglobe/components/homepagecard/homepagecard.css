@@ -1,0 +1,55 @@
+.homepage-card-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.homepage-image-card {
+  width: 25vw;
+  height: 100vh;
+  border: 2px solid white;
+  backdrop-filter: blur(5px);
+  margin: 5px;
+}
+
+.homepage-image {
+  display: flex;
+}
+
+.image-containers {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-marquee {
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 100%;
+  margin-top: 1vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+marquee {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.homepage-headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 11vh;
+}
+@media (max-width: 900px) {
+  .homepage-image-card {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

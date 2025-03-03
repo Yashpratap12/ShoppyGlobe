@@ -1,0 +1,88 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vh;
+  margin-top: 11vh;
+}
+.contact-page {
+  backdrop-filter: blur(5px);
+  border: 5px solid white;
+  height: 60vh;
+  width: 40vw;
+  margin-bottom: 4vh;
+}
+.contact-page h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+.contact-page sup {
+  color: rgb(255, 0, 0, 0.8);
+}
+.contact-page input {
+  width: 60%;
+  border: none;
+}
+.contact-page .name {
+  display: flex;
+  gap: 3vw;
+  margin-top: 2vh;
+  padding: 0.5rem;
+  color: white;
+}
+.contact-page .email {
+  display: flex;
+  gap: 3vw;
+  margin-top: 2vh;
+  padding: 0.5rem;
+  color: white;
+}
+.contact-page .number {
+  display: flex;
+  gap: 3vw;
+  margin-top: 2vh;
+  padding: 0.5rem;
+  color: white;
+}
+.contact-description {
+  margin-top: 3vh;
+  padding: 0.5rem;
+  color: white;
+}
+.contact-page textarea {
+  height: 10vh;
+  width: 100%;
+  margin-top: 2vh;
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+  gap: 1vw;
+}
+.submit-button button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  width: 8vw;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(20, 82, 224);
+    color: white;
+  }
+}
+@media (max-width: 890px) {
+  .contact-page {
+    width: 75vw;
+    height: 40vh;
+  }
+}
